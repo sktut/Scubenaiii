@@ -132,7 +132,7 @@ export default function PressReleasePage() {
                 <p className="text-lg text-purple-200 mb-4">
                   ScubenAI's relaunch positions it at the forefront of AI innovation, combining cutting-edge machine
                   learning, cybersecurity, web and mobile development, and digital design to empower organizations with
-                  secure, scalable, and intelligent ecosystems.
+                  secure, scalable, and intelligent 
                 </p>
               </div>
 
