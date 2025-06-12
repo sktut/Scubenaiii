@@ -132,7 +132,7 @@ export default function PressReleasePage() {
                 <p className="text-lg text-purple-200 mb-4">
                   ScubenAI's relaunch positions it at the forefront of AI innovation, combining cutting-edge machine
                   learning, cybersecurity, web and mobile development, and digital design to empower organizations with
-                  secure, scalable, and intelligent 
+                  secure, scalable, and intelligent solutions.
                 </p>
               </div>
 
@@ -143,7 +143,7 @@ export default function PressReleasePage() {
                     platform represents years of research, collaboration, and innovation—built to solve real problems
                     and unlock new opportunities for digital transformation."
                   </p>
-                  <footer className="text-purple-300 font-medium">— Sandeep Kashyap, Founder of ScubenAI</footer>
+                  <footer className="text-purple-300 font-medium">— Sandeep Kashyap, Founder & CEO of ScubenAI</footer>
                 </blockquote>
 
                 <p className="text-purple-200 mb-4">
