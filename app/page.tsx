@@ -398,7 +398,18 @@ function MobileMenu({ isOpen, onClose }: { isOpen: boolean; onClose: () => void 
               Contact
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-fuchsia-500 transition-all duration-300 group-hover:w-full"></span>
             </span>
-          </a>
+          </a> <a
+      href="#certifications"
+      onClick={handleClick}
+      className="relative overflow-hidden flex items-center text-sm font-medium text-purple-300 transition-colors hover:text-white group"
+    >
+      <span className="relative">
+        Certifications
+        <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-fuchsia-500 transition-all duration-300 group-hover:w-full"></span>
+      </span>
+    </a>
+  )
+}
           <div className="pt-4 border-t border-purple-900/30">
             <Button
               asChild
