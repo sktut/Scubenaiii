@@ -1,5 +1,4 @@
-import './styles/globals.css';
-
+import '../globals.css';
 export const metadata = {
   title: 'ScubenAI - Next-Gen Certifications',
   description: 'Advance your career with industry-leading certifications from ScubenAI.'
