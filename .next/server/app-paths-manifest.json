@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/press-release/page": "app/press-release/page.js",
-  "/login/page": "app/login/page.js",
-  "/services/page": "app/services/page.js",
-  "/cookie-policy/page": "app/cookie-policy/page.js"
-}
