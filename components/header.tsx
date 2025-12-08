@@ -8,7 +8,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { Menu, X, Shield, ChevronDown } from "lucide-react"
 
 const navLinks = [
-  { href: "#home", label: "Home" },
+  { href: "/", label: "Home" },
   {
     href: "#solutions",
     label: "Solutions",
@@ -20,8 +20,9 @@ const navLinks = [
   },
   { href: "#about", label: "About" },
   { href: "#team", label: "Team" },
-  { href: "#contact", label: "Contact" },
-]
+  { href: "/donate", label: "Donate Now" }, // corrected
+];
+
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
