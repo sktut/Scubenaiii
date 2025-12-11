@@ -20,7 +20,8 @@ const navLinks = [
   },
   { href: "#about", label: "About" },
   { href: "#team", label: "Team" },
-  { href: "/donate", label: "Donate Now" }, // corrected
+  { href: "/donate", label: "Donate Now" },
+  { href: "/ourproducts", label: "Our Products" }, // corrected
 ];
 
 
