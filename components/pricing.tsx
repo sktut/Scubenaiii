@@ -99,7 +99,7 @@ export default function Pricing() {
                 </div>
 
                 <button
-                  onClick={() => window.open("https://donate.scubenai.com", "_blank")}
+                  onClick={() => window.open("https://scubenai.com/donate", "_blank")}
                   className={`w-full py-3 rounded-lg font-semibold transition-all duration-300 mb-8 ${
                     plan.featured
                       ? "bg-primary text-primary-foreground hover:shadow-lg hover:shadow-primary/50 hover:scale-105 transform"
