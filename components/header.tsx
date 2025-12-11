@@ -162,3 +162,4 @@ export function Header() {
     </motion.header>
   )
 }
+export default Header
