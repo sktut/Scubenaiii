@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/donate",
+      "regex": "^/donate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/donate(?:/)?$"
+    },
+    {
+      "page": "/ourproducts",
+      "regex": "^/ourproducts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ourproducts(?:/)?$"
+    },
+    {
+      "page": "/scuben-ai-labs",
+      "regex": "^/scuben\\-ai\\-labs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/scuben\\-ai\\-labs(?:/)?$"
+    },
+    {
+      "page": "/scuben-ai-labs/donate",
+      "regex": "^/scuben\\-ai\\-labs/donate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/scuben\\-ai\\-labs/donate(?:/)?$"
+    },
+    {
+      "page": "/scuben-ai-labs/labs",
+      "regex": "^/scuben\\-ai\\-labs/labs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/scuben\\-ai\\-labs/labs(?:/)?$"
+    },
+    {
+      "page": "/scuben-ai-labs/labs/agentic-ai",
+      "regex": "^/scuben\\-ai\\-labs/labs/agentic\\-ai(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/scuben\\-ai\\-labs/labs/agentic\\-ai(?:/)?$"
+    },
+    {
+      "page": "/scuben-ai-labs/labs/control-theory",
+      "regex": "^/scuben\\-ai\\-labs/labs/control\\-theory(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/scuben\\-ai\\-labs/labs/control\\-theory(?:/)?$"
+    },
+    {
+      "page": "/scuben-ai-labs/labs/demos",
+      "regex": "^/scuben\\-ai\\-labs/labs/demos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/scuben\\-ai\\-labs/labs/demos(?:/)?$"
+    },
+    {
+      "page": "/scuben-ai-labs/labs/donate",
+      "regex": "^/scuben\\-ai\\-labs/labs/donate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/scuben\\-ai\\-labs/labs/donate(?:/)?$"
+    },
+    {
+      "page": "/scuben-ai-labs/labs/generative-ai",
+      "regex": "^/scuben\\-ai\\-labs/labs/generative\\-ai(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/scuben\\-ai\\-labs/labs/generative\\-ai(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

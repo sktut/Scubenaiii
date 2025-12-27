@@ -1,0 +1,3 @@
+module.exports=[18274,a=>{"use strict";var b=a.i(1368),c=a.i(49849),d=a.i(44783),e=a.i(84372),f=a.i(92192);function g({children:a}){return(0,b.jsxs)("div",{className:"relative min-h-screen overflow-hidden",children:[(0,b.jsx)(f.ParticleBackground,{}),(0,b.jsx)(c.Navbar,{}),(0,b.jsx)("main",{className:"relative z-10",children:a}),(0,b.jsx)(e.Footer,{}),(0,b.jsx)(d.DonateFloatingButton,{})]})}a.s(["default",()=>g])}];
+
+//# sourceMappingURL=Desktop_Scubenaiii-main_app_scuben-ai-labs_labs_layout_tsx_fb7acc14._.js.map

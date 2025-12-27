@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/scuben-ai-labs/layout,_N_T_/scuben-ai-labs/page,_N_T_/scuben-ai-labs"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/scuben-ai-labs/__PAGE__",
+    "/scuben-ai-labs",
+    "/_index",
+    "/_head"
+  ]
+}

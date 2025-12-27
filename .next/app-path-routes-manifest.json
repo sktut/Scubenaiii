@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/donate/page": "/donate",
+  "/ourproducts/page": "/ourproducts",
+  "/page": "/",
+  "/scuben-ai-labs/donate/page": "/scuben-ai-labs/donate",
+  "/scuben-ai-labs/labs/agentic-ai/page": "/scuben-ai-labs/labs/agentic-ai",
+  "/scuben-ai-labs/labs/control-theory/page": "/scuben-ai-labs/labs/control-theory",
+  "/scuben-ai-labs/labs/demos/page": "/scuben-ai-labs/labs/demos",
+  "/scuben-ai-labs/labs/donate/page": "/scuben-ai-labs/labs/donate",
+  "/scuben-ai-labs/labs/generative-ai/page": "/scuben-ai-labs/labs/generative-ai",
+  "/scuben-ai-labs/labs/page": "/scuben-ai-labs/labs",
+  "/scuben-ai-labs/page": "/scuben-ai-labs"
+}
