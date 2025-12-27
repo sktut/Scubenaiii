@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/scube/Desktop/Scubenaiii-main/app/scuben-ai-labs/labs/layout.tsx"],"sourcesContent":["import type { ReactNode } from \"react\"\nimport { Navbar } from \"@/components/navbar\"\nimport { DonateFloatingButton } from \"@/components/donate-floating-button\"\nimport { Footer } from \"@/components/footer\"\nimport { ParticleBackground } from \"@/components/particle-background\"\n\nexport default function LabsLayout({ children }: { children: ReactNode }) {\n  return (\n    <div className=\"relative min-h-screen overflow-hidden\">\n      <ParticleBackground />\n      <Navbar />\n      <main className=\"relative z-10\">{children}</main>\n      <Footer />\n      <DonateFloatingButton />\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AACA;AACA;AACA;AACA;;;;;;AAEe,SAAS,WAAW,EAAE,QAAQ,EAA2B;IACtE,qBACE,6WAAC;QAAI,WAAU;;0BACb,6WAAC,2JAAkB;;;;;0BACnB,6WAAC,+HAAM;;;;;0BACP,6WAAC;gBAAK,WAAU;0BAAiB;;;;;;0BACjC,6WAAC,+HAAM;;;;;0BACP,6WAAC,mKAAoB;;;;;;;;;;;AAG3B"}}]
-}

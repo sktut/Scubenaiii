@@ -1,8 +1,7 @@
-[00:00:01.152] Server  LOG      ✓ Ready in 764ms
-[00:00:11.159] Server  LOG      ○ Compiling / ...
-[00:00:12.072] Server  WARN     ⚠ Cross origin request detected from 172.20.10.3 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:12.283] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:02.074] Server  LOG      ✓ Ready in 1545ms
+[00:00:17.123] Server  LOG      ○ Compiling / ...
+[00:00:20.055] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.284] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -12,45 +11,41 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-https://react.dev/link/hydration-mismatch
+%s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <RenderFromTemplateContext>
-      <ScrollAndFocusHandler segmentPath={[...]}>
-        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
-          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-            <LoadingBoundary name="/" loading={null}>
-              <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-                  <RedirectBoundary>
-                    <RedirectErrorBoundary router={{...}}>
-                      <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
-                        <SegmentViewNode type="page" pagePath="page.tsx">
-                          <SegmentTrieNode>
-                          <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
-                            <Home params={Promise} searchParams={Promise}>
-                              <IntroScreen>
-                              <CustomCursor>
+    <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+      <Home params={Promise} searchParams={Promise}>
+        <IntroScreen>
+        <CustomCursor>
+        <div className="opacity-0">
+          <Header>
+            <motion.header initial={{y:-100}} animate={{y:0}} transition={{duration:0.5}} className="fixed top-...">
+              <header className="fixed top-..." style={{...}} ref={function useMotionRef.useCallback}>
+                <div className="container ...">
+                  <nav className="flex items...">
+                    <LinkComponent>
+                    <div>
+                    <div className="flex items...">
+                      <ThemeToggle>
+                        <Button variant="ghost" size="icon" onClick={function onClick} className="relative o...">
+                          <button data-slot="button" className={"inline-f..."} onClick={function onClick}>
+                            <motion.div initial={false} animate={{rotate:0,scale:1}} transition={{duration:0.3}} ...>
                               <div
-+                               className="opacity-0"
--                               className="fixed top-0 left-0 w-8 h-8 rounded-full border-2 border-primary pointer-eve..."
+                                className="absolute"
+                                style={{
++                                 transform: "none"
+-                                 transform: "scale(0) rotate(180deg)"
+                                }}
+                                ref={function useMotionRef.useCallback}
                               >
-                                <Header>
-                                  <motion.header initial={{y:-100}} animate={{y:0}} transition={{duration:0.5}} ...>
-+                                   <header
-+                                     className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transp..."
-+                                     style={{transform:"translateY..."}}
-+                                     ref={function useMotionRef.useCallback}
-+                                   >
-                                ...
-                        ...
+                            ...
                       ...
+                ...
           ...
 
-[00:00:12.283] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:12.283] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:12.283] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:12.283] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.10.3:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.10.3:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766855464134}
-[00:00:12.283] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.10.3:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.10.3:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766855464134}
-[00:00:23.839] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:23.839] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.10.3:3000/scuben-ai-labs color: rgb(120, 120, 120) color: inherit {"dp":"/scuben-ai-labs","o":"http://172.20.10.3:3000/scuben-ai-labs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766855475693}
+[00:00:20.396] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:20.396] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:20.396] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766857175059}
+[00:00:40.497] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:40.497] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/scuben-ai-labs color: rgb(120, 120, 120) color: inherit {"dp":"/scuben-ai-labs","o":"http://localhost:3000/scuben-ai-labs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766857195153}
