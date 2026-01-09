@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/scube/Desktop/Scubenaiii-main%20%284%29/Scubenaiii-main/components/cursor-custom.tsx"],"sourcesContent":["\"use client\"\n\nimport { useEffect } from \"react\"\n\nexport function CustomCursor() {\n  useEffect(() => {\n    const handleMouseMove = (e: MouseEvent) => {\n      // Optional: Add glow effect on cursor movement\n      const cursor = document.documentElement.style\n      cursor.setProperty(\"--mouse-x\", `${e.clientX}px`)\n      cursor.setProperty(\"--mouse-y\", `${e.clientY}px`)\n    }\n\n    window.addEventListener(\"mousemove\", handleMouseMove)\n    return () => window.removeEventListener(\"mousemove\", handleMouseMove)\n  }, [])\n\n  return null\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;AAIO,SAAS;IACd,IAAA,iVAAS,EAAC;QACR,MAAM,kBAAkB,CAAC;YACvB,+CAA+C;YAC/C,MAAM,SAAS,SAAS,eAAe,CAAC,KAAK;YAC7C,OAAO,WAAW,CAAC,aAAa,GAAG,EAAE,OAAO,CAAC,EAAE,CAAC;YAChD,OAAO,WAAW,CAAC,aAAa,GAAG,EAAE,OAAO,CAAC,EAAE,CAAC;QAClD;QAEA,OAAO,gBAAgB,CAAC,aAAa;QACrC,OAAO,IAAM,OAAO,mBAAmB,CAAC,aAAa;IACvD,GAAG,EAAE;IAEL,OAAO;AACT"}}]
+}
