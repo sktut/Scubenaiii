@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/security/layout,_N_T_/security/signup/layout,_N_T_/security/signup/page,_N_T_/security/signup"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/security/signup/__PAGE__",
+    "/security/signup",
+    "/security",
+    "/_index",
+    "/_head"
+  ]
+}

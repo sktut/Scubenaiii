@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/donate/page": "app/donate/page.js",
+  "/ourproducts/page": "app/ourproducts/page.js",
+  "/page": "app/page.js",
+  "/scuben-ai-labs/donate/page": "app/scuben-ai-labs/donate/page.js",
+  "/scuben-ai-labs/labs/agentic-ai/page": "app/scuben-ai-labs/labs/agentic-ai/page.js",
+  "/scuben-ai-labs/labs/control-theory/page": "app/scuben-ai-labs/labs/control-theory/page.js",
+  "/scuben-ai-labs/labs/demos/page": "app/scuben-ai-labs/labs/demos/page.js",
+  "/scuben-ai-labs/labs/donate/page": "app/scuben-ai-labs/labs/donate/page.js",
+  "/scuben-ai-labs/labs/generative-ai/page": "app/scuben-ai-labs/labs/generative-ai/page.js",
+  "/scuben-ai-labs/labs/page": "app/scuben-ai-labs/labs/page.js",
+  "/scuben-ai-labs/page": "app/scuben-ai-labs/page.js",
+  "/security/dashboard/page": "app/security/dashboard/page.js",
+  "/security/login/page": "app/security/login/page.js",
+  "/security/signup/page": "app/security/signup/page.js"
+}

@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[42949,["/_next/static/chunks/13dd16a01ea8a5d0.js","/_next/static/chunks/1f26ce154ba26398.js"],"ViewportBoundary"]
+4:I[42949,["/_next/static/chunks/13dd16a01ea8a5d0.js","/_next/static/chunks/1f26ce154ba26398.js"],"MetadataBoundary"]
+5:"$Sreact.suspense"
+7:I[58387,["/_next/static/chunks/13dd16a01ea8a5d0.js","/_next/static/chunks/1f26ce154ba26398.js"],"IconMark"]
+0:{"buildId":"goBzRRNIMssKGQUKWQP2a","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#ffffff"}],["$","meta","3",{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#0a0a1a"}]]
+6:[["$","title","0",{"children":"ScubenAI - AI-Powered Cybersecurity Solutions"}],["$","meta","1",{"name":"description","content":"ScubenAI provides cutting-edge AI-powered cybersecurity solutions and digital transformation services for businesses of all scales."}],["$","meta","2",{"name":"author","content":"ScubenAI Team"}],["$","meta","3",{"name":"generator","content":"v0.app"}],["$","meta","4",{"name":"keywords","content":"AI,Cybersecurity,Machine Learning,Digital Transformation,ScubenAI"}],["$","meta","5",{"name":"creator","content":"ScubenAI"}],["$","link","6",{"rel":"icon","href":"/favicon.ico"}],["$","$L7","7",{}]]
