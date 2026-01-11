@@ -1,1 +1,61 @@
-[00:00:01.513] Server  LOG      ✓ Ready in 963ms
+[00:00:04.506] Server  LOG      ✓ Ready in 3.8s
+[00:00:15.166] Server  LOG      ○ Compiling / ...
+[00:00:16.753] Server  ERROR   `legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:
+
+npx @next/codemod@latest new-link .
+
+Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components
+[00:00:17.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.516] Browser ERROR   `legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:
+
+npx @next/codemod@latest new-link .
+
+Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components
+[00:00:17.516] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+      <Home params={Promise} searchParams={Promise}>
+        <IntroScreen>
+        <CustomCursor>
+        <div className="opacity-0">
+          <Header>
+            <motion.header initial={{y:-100}} animate={{y:0}} transition={{duration:0.5}} className="fixed top-...">
+              <header className="fixed top-..." style={{...}} ref={function useMotionRef.useCallback}>
+                <div className="container ...">
+                  <nav className="flex items...">
+                    <LinkComponent>
+                    <div>
+                    <div className="flex items...">
+                      <ThemeToggle>
+                        <Button variant="ghost" size="icon" onClick={function onClick} className="relative o...">
+                          <button data-slot="button" className={"inline-f..."} onClick={function onClick}>
+                            <motion.div initial={false} animate={{rotate:0,scale:1}} transition={{duration:0.3}} ...>
+                              <div
+                                className="absolute"
+                                style={{
++                                 transform: "none"
+-                                 transform: "scale(0) rotate(180deg)"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                            ...
+                      ...
+                ...
+          ...
+
+[00:00:17.516] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:17.516] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:17.516] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1768116594125}
+[00:00:25.585] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:25.585] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/security/login color: rgb(120, 120, 120) color: inherit {"dp":"/security/login","o":"http://localhost:3000/security/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1768116602189}
